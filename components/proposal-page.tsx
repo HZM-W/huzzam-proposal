@@ -93,7 +93,7 @@ export function ProposalPage() {
           <p className="quote-mark">“</p>
           <h1 id="quote-title">If we don&apos;t fight,<br /><em>we can&apos;t win.</em></h1>
           <p className="quote-subtitle">But this time, we fight for a life together.</p>
-          <a className="research-link" href="#research-proposal">Download Research Proposal <ArrowRight size={14} /></a>
+
           <button className="scroll-cue" onClick={nextScreen}><ArrowDown size={15} /> CLICK TO GO NEXT</button>
         </section>}
 
