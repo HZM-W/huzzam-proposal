@@ -79,7 +79,7 @@ export function ProposalPage() {
           <div className="hero-copy">
             <p className="kicker"><span className="red-line" /> A SPECIAL REPORT FROM THE WALLS</p>
             <h1 id="proposal-title">To the person<br /><em>I would</em> <span>choose</span><br />in every life.</h1>
-            <p className="hero-intro">Some missions are worth risking everything for. This one is simple: I want to spend my forever with you.</p>
+            <p className="hero-intro">Some missions are worth risking everything for.</p>
             <button className="scroll-cue" onClick={nextScreen}><ArrowDown size={15} /> CLICK TO GO NEXT</button>
           </div>
           <div className="hero-art-wrap">
@@ -100,7 +100,7 @@ export function ProposalPage() {
         {screen === 'intro' && <section className="intro-screen" aria-labelledby="questions-title">
           <p className="kicker"><span className="red-line" /> THE FINAL OPERATION</p>
           <h2 id="questions-title">Three questions.<br /><em>One</em> very important answer.</h2>
-          <p>Your mission is to answer honestly.<br />My heart is already standing by.</p>
+          <p>Your mission is to answer honestly.</p>
           <button className="begin-button" onClick={() => setScreen('questions')}>LET&apos;S BEGIN <ArrowRight size={16} /></button>
         </section>}
 
